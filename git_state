@@ -1,2 +1,2 @@
-89a6785 Update cred vm to auto-populate rxg address if on rxg Other tweaks as well
-?? test/onboarding/
+21ed5be tweaks
+ M tools.sh

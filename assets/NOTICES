@@ -15592,8 +15592,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 --------------------------------------------------------------------------------
 rg_common
+rg_dynamic_core
 rg_widgets
-rxg_dynamic_core
 
 TODO: Add your license here.
 
