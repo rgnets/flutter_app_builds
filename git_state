@@ -1,2 +1,10 @@
-d6092be Polished up system actions menu
+314cad8 Refactor GuiUtils into common lib, add alternate ui to onboarding,
+ M lib/assets/themes.dart
+ M lib/common/components/app_menu.dart
+ M lib/common/components/async_model_master_detail.dart
+ M lib/debug_vars.dart
+ M lib/onboarding/views/onboarding.dart
+ M lib/onboarding/views/onboarding_desktop.dart
+ M lib/onboarding/views/onboarding_mobile.dart
  M tools.sh
+?? $HOME/
