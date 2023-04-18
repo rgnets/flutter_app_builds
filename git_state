@@ -1,4 +1,5 @@
 0ae1855 Various cleanups, implement mobile onboarding
+ M lib/auth/views/api_key_login.dart
  M lib/auth/views/username_password_login.dart
  M lib/debug_vars.dart
  M lib/fleet/views/fleet.dart
