@@ -1,10 +1,9 @@
-314cad8 Refactor GuiUtils into common lib, add alternate ui to onboarding,
- M lib/assets/themes.dart
- M lib/common/components/app_menu.dart
- M lib/common/components/async_model_master_detail.dart
+0ae1855 Various cleanups, implement mobile onboarding
+ M lib/auth/views/username_password_login.dart
  M lib/debug_vars.dart
- M lib/onboarding/views/onboarding.dart
- M lib/onboarding/views/onboarding_desktop.dart
- M lib/onboarding/views/onboarding_mobile.dart
+ M lib/fleet/views/fleet.dart
+ M lib/license/views/license_view.dart
+ M pubspec.lock
+ M pubspec.yaml
  M tools.sh
 ?? $HOME/
