@@ -8,7 +8,7 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"main.dart.js": "a962d650e07ef90b425dade3d1afe697",
+"main.dart.js": "488730a6b6d1818d106bcb907d19e83b",
 "version.json": "8cccf85a09c2b3a182c68e1018769009",
 "assets/lib/assets/language/en-US.yaml": "fe53096ba486fd8203ff0a65d14dbf1d",
 "assets/lib/assets/images/rgnets_logo.svg": "666dca7a9c97bdeaab91afbed40d0a00",
@@ -58,9 +58,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "3d00c0e3beadf92c1555137596deac74",
-"index.html": "b85a59de36973abc4392ba8391332b42",
-"/": "b85a59de36973abc4392ba8391332b42",
-"git_state": "6d6696f55f461a26165e48b1109c9662"
+"index.html": "5b6edf51392ac48710496dd45b22ea28",
+"/": "5b6edf51392ac48710496dd45b22ea28",
+"git_state": "d638cb3537f9a3488e2edaa09344c59e"
 };
 
 // The application shell files that are downloaded before a service worker can
