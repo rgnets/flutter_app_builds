@@ -15,7 +15,7 @@ An example for how you would add a web build:
 
 1. Clone the `main` branch of this repo.
 2. Create and switch to a new branch (or switch to existing, if you've done this before) with the project name and build type, eg `flutter_sandbox_web`
-3. Copy the build artifacts from the flutter `build/web/*` to repo root, clearing anything existing except the README.
+3. Copy the build artifacts from the flutter `build/web/*` to repo root, clearing anything existing except the README. NOTE: Be sure the Flutter web build was done with the base-href option, eg `flutter build web --base-href "/flutter_sandbox/"`
 4. add a git_state file as produced by `git log  --oneline -n 1 > git_state && git status --porcelain >> git_state`.
 5. commit.
 
