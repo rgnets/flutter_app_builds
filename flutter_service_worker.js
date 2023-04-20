@@ -8,8 +8,7 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"git_state": "d2dc8d115bd6924032bbfa5e1bda494f",
-"main.dart.js": "5c59532a97cd15ba2523b7320a3fec97",
+"main.dart.js": "feacd0074311e6609570636a1a78100c",
 "version.json": "5aeef19d718b292df0e5e405b36668c9",
 "assets/lib/assets/language/en-US.yaml": "fe53096ba486fd8203ff0a65d14dbf1d",
 "assets/lib/assets/images/rgnets_logo.svg": "666dca7a9c97bdeaab91afbed40d0a00",
@@ -52,14 +51,14 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/AssetManifest.json": "e291da49b42588fdd8f74e3eacf18b78",
 "assets/FontManifest.json": "193fc7faac7d93e521356b7f6766538c",
-"assets/NOTICES": "9248569c3f7dc36ca36ac868424e2c39",
+"assets/NOTICES": "798e34fe67f3b074d59abbdf55860502",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"index.html": "d31e7c9161a3989ed7d0c116d06a6c04",
-"/": "d31e7c9161a3989ed7d0c116d06a6c04",
+"index.html": "873e1dcc0a063eb8626f67d731e4c6f5",
+"/": "873e1dcc0a063eb8626f67d731e4c6f5",
 "manifest.json": "ce56726a30392c57cbcbf7945f1bc0df"
 };
 
