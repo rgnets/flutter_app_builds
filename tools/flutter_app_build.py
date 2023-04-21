@@ -52,7 +52,7 @@ def build_flutter_app(app_path, project_name, extra_args:str):
 
 
 def copy_to_builds(app_path, builds_path, target):
-    os.system(f'rsync -aP --delete {app_path}/build/{target}/ {builds_path} --exclude=/.git --exclude=/.gitignore --exclude=/README.md')
+    os.system(f'rsync -aP --delete {app_path}/build/{target}/ {builds_path} --exclude=/.git --exclude=/.gitignore --exclude=/README.md --exclude=/tools')
 
 
 def main():

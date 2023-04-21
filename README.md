@@ -19,6 +19,13 @@ An example for how you would add a web build:
 4. add a git_state file as produced by `git log  --oneline -n 1 > git_state && git status --porcelain >> git_state`.
 5. commit.
 
+## Adding builds with script
+
+1. You should be able to run the script from where it is, but if not, try copying the `tools` folder outside the repo and using it.
+2. Install the contents of `requirements.txt` by your preferred method. I use Pipenv, and included those files.
+3. The script is location agnostic, just give it your app source and builds repo paths: `./flutter_app_build.py -p rxg_lightui/ -b ./flutter_app_builds `
+4. When the script completes, review the changes to your builds repo and commit/push manually.
+
 ## Consumption
 
 ### Git
