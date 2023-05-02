@@ -36,7 +36,7 @@ def prepare_builds_repo(builds_path, project_name, target, prefix):
 
     # Update repo
     run(['git', 'fetch', '--all'])
-    run(['git', 'checkout', '-f' 'main'])
+    run(['git', 'checkout', '-f', 'main'])
     run(['git', 'pull'])
 
     # Check if our branch exists remote. If so, switch, if not, create.
