@@ -9,8 +9,13 @@ import argparse
 import subprocess
 
 
-def run_and_read(cmd: list[str]):
-    return subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+def run_and_read(cmd: list[str], check=True):
+    return subprocess.run(cmd, stdout=subprocess.PIPE, check=check).stdout.decode('utf-8')
+
+
+def run(cmd: list[str], check=True):
+    return subprocess.run(cmd, check=check)
+
 
 def prebuild_tasks():
     os.system("flutter pub get")
@@ -30,9 +35,9 @@ def prepare_builds_repo(builds_path, project_name, target, prefix):
     os.system('git config push.autoSetupRemote true')
 
     # Update repo
-    os.system('git fetch --all')
-    os.system('git checkout -f main')
-    os.system('git pull')
+    run(['git', 'fetch', '--all'])
+    run(['git', 'checkout', '-f' 'main'])
+    run(['git', 'pull'])
 
     # Check if our branch exists remote. If so, switch, if not, create.
     # os.system('')
@@ -40,10 +45,14 @@ def prepare_builds_repo(builds_path, project_name, target, prefix):
     remote_branches = [a.strip() for a in remote_branches if 'HEAD' not in a and a.strip() != '']
     branch_name = f"{prefix}{project_name}_{target}"
 
+    os.system("git clean -fxd")
+    os.system("git reset --hard HEAD")
     if f"origin/{branch_name}" in remote_branches:
-        os.system(f'git checkout --track origin/{branch_name}')
+        print(f"Found remote branch origin/{branch_name}")
+        run(['git','switch', branch_name], check=True)
     else:
-        os.system(f'git checkout -B {branch_name}')
+        print(f"Remote branch origin/{branch_name} doesn't exist, creating...")
+        run(['git','checkout', '-B', branch_name], check=True)
     os.system('git pull')
 
 def build_flutter_app(app_path, project_name, extra_args:str):
