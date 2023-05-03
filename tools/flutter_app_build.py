@@ -49,7 +49,7 @@ def prepare_builds_repo(builds_path, project_name, target, prefix):
     os.system("git reset --hard HEAD")
     if f"origin/{branch_name}" in remote_branches:
         print(f"Found remote branch origin/{branch_name}")
-        run(['git','switch', branch_name], check=True)
+        run(['git','checkout','-f', branch_name], check=True)
     else:
         print(f"Remote branch origin/{branch_name} doesn't exist, creating...")
         run(['git','checkout', '-B', branch_name], check=True)
