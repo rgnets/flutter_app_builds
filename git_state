@@ -1,0 +1,5 @@
+a3936a6 fixed adding widgets
+AM lib/custom_dashboard/components/add_dashboard_dialog.dart
+ M lib/custom_dashboard/custom_dashboard.dart
+ M lib/custom_dashboard/custom_dashboard_view_model.dart
+?? $HOME/
