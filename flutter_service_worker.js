@@ -60,8 +60,8 @@ const RESOURCES = {
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"index.html": "c54ac5169ec3255b8b6cde9513baa302",
-"/": "c54ac5169ec3255b8b6cde9513baa302",
+"index.html": "ce5c8c1ad8f98c9d1023e9854fe93f9d",
+"/": "ce5c8c1ad8f98c9d1023e9854fe93f9d",
 "manifest.json": "ce56726a30392c57cbcbf7945f1bc0df",
 "git_state": "45fed277639edcb36104c195494a7679"
 };
