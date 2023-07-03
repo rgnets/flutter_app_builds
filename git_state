@@ -1,2 +1,1 @@
-5f56b73 update gitignore
- M lib/dashboard/dashboard_view_model.dart
+ce716e6 Fix summarycache and set iteration value to 1
