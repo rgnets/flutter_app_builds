@@ -1,3 +1,4 @@
-095a4ce cleanup
- M pubspec.lock
- M pubspec.yaml
+4acc949 Rudimentary drag and drop reordering works. Need to fix tables refreshing on movement.
+ M lib/custom_dashboard/custom_dashboard.dart
+ M lib/custom_dashboard/custom_dashboard_view_model.dart
+ M lib/main.dart
