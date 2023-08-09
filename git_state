@@ -1,4 +1,2 @@
-4acc949 Rudimentary drag and drop reordering works. Need to fix tables refreshing on movement.
- M lib/custom_dashboard/custom_dashboard.dart
- M lib/custom_dashboard/custom_dashboard_view_model.dart
- M lib/main.dart
+da6d4aa Update flutter.yml
+ M pubspec.lock
