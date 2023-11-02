@@ -1,2 +1,24 @@
-15363ed Update flutter.yml
+2af8aa3 Refactored GeneratedModel into MetaModel
+ M lib/common/components/app_menu.dart
+D  lib/custom_dashboard/components/EditStack.dart
+D  lib/custom_dashboard/components/add_dashboard_dialog.dart
+D  lib/custom_dashboard/components/add_update_widget.dart
+D  lib/custom_dashboard/components/add_widget_dialog.dart
+D  lib/custom_dashboard/components/standalone_custom_report.dart
+D  lib/custom_dashboard/components/standalone_graph_card.dart
+D  lib/custom_dashboard/custom_dashboard.dart
+D  lib/custom_dashboard/custom_dashboard_view.dart
+D  lib/custom_dashboard/custom_dashboard_view_model.dart
+D  lib/custom_dashboard/definitions/dashboard_widget.dart
+D  lib/custom_dashboard/definitions/dashboard_widget.g.dart
+D  lib/custom_dashboard/definitions/dialogs_response.dart
+D  lib/custom_dashboard/definitions/dialogs_response.g.dart
+D  lib/dashboard/dashboard.dart
+D  lib/dashboard/dashboard_view.dart
+D  lib/dashboard/dashboard_view_model.dart
+ M lib/routes/router.dart
+ M lib/routes/router.gr.dart
  M pubspec.lock
+ M pubspec.yaml
+?? 0001-Added-rudimentary-drag-and-drop-reordering.patch
+?? packages/
